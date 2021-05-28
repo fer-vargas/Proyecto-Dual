@@ -1,0 +1,97 @@
+{% extends 'appcommerce/index.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="row" id="tmServices">
+    <div class="col-12">
+      <div class="parallax-window tm-services-parallax-header"
+           data-parallax="scroll"
+           data-z-index="101"
+           data-image-src="{% static 'appcommerce/img/coffee-glass.jpg' %}">
+
+           <div class="tm-bg-black-transparent text-center tm-services-header">
+              <h2 class="text-uppercase tm-services-page-title"> Servicios </h2>
+              <p class="tm-services-description mb-0 small">
+                  En este apartado podrás encontrar los servicios que brindamos en nuestra pastelería, 
+                  así como también las promociones y como manejamos los envios.
+              </p>
+          </div>
+      </div>
+    </div>  
+
+    <div class="col-12">
+      <div class="tm-bg-black-transparent tm-services-detail-box">
+          <p>
+        Por parte de las dueñas de la pastelería "Dulce conexión" deseamos que tengas una buena experiencia. Si tienes dudas sobre los servicios que brindamos puedes preguntar sin ningún compromiso por medio de nuestras redes sociales tendrá la tención necesaria por parte del encargado de su orden.
+          </p>
+          <p>
+           
+          </p>
+      </div>
+    </div> 
+
+    <div class="col-12 tm-tabs-container">
+        <div class="tm-tab-links">
+              <ul class="tabs clearfix" data-tabgroup="first-tab-group">
+                  <li><a href="#tab1" class="active">
+                      <div class="icon-wrap"><i class="fas fa-2x fa-leaf"></i></div>
+                      Servicio a domicilio                    
+                  </a></li>
+                  <li><a href="#tab2" class="">
+                      <div class="icon-wrap"><i class="fab fa-2x fa-canadian-maple-leaf"></i></div>
+                      Contestación inmediata            
+                  </a></li>
+                  <li><a href="#tab3" class="">
+                      <div class="icon-wrap"><i class="fab fa-2x fa-pagelines"></i></div>
+                                  Promociones
+                  </a></li>                    
+              </ul>
+          </div>  
+          <div class="tm-tab-contents">
+              <div id="first-tab-group" class="tabgroup">
+                  <div id="tab1">                            
+                      <div class="text-content">
+                          <h3 class="tm-service-tab-title">Servicio a domicilio</h3>
+                          <p class="tm-service-tab-p">  Las entregas tendrán una tardanza de 45 minutos si se excede ese tiempo el pedido será gratis.
+                          </p>                            
+                          <p class="mb-0">
+                           
+                          </p>
+                      </div>
+                  </div>
+                  <div id="tab2">
+                      <div class="text-content">
+                          <h3 class="tm-service-tab-title">Contestación inmediata</h3>
+                          <p class="tm-service-tab-p"> Usted recibirá una constentación inmediata por nuestras redes sociales a más tardar de 15 minutos, habrá varios encargados en tomar amablemente su orden.
+                                                            
+                          </p>                            
+                          <p class="mb-0">
+                           
+                          </p>
+                      </div>
+                  </div>
+                  <div id="tab3">
+                      <div class="text-content">
+                          <h3 class="tm-service-tab-title">Promociones</h3>
+                          <p class="tm-service-tab-p">
+                              *En la compra de dos pasteles se le obsequia 10 cokies.<p>
+                              *En la compra de 1 pastel y 1 orden de café se le dará un descuento del 20%.
+                            </p>
+                            <p> *Si eres un cliente frecuente se le dará el 25% de descuento en todas sus compras.</p>
+                               
+                          </p>                            
+                          <p class="mb-0">
+                             
+                          </p>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+
+      </div>     
+  </section>
+
+{% endblock %}

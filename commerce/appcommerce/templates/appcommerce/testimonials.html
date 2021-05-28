@@ -1,0 +1,80 @@
+{% extends 'appcommerce/index.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="row" id="tmServices">
+    <div class="col-12">
+      <div class="parallax-window tm-services-parallax-header tm-testimonials-parallax-header"
+           data-parallax="scroll"
+           data-z-index="101"
+           data-image-src="img/ice-mountain.jpg">
+
+           <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
+              <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Testimonios</h2>
+              <p class="tm-services-description mb-0 small">
+                 En "Dulce conexión" tomamos en cuenta los testimonios de nuestros clientes y todos los ponemos en nuestra página oficial; Acontinuación te mostraremos algunos testimonios de personas que ya nos han visitado.
+              </p>
+          </div>
+      </div>
+    </div>   
+  </section>
+
+  <section class="row tm-testimonials-section">
+      <div class="col-12 tm-carousel">              
+          <div class="tm-bg-black-transparent tm-testimonial-box text-center">                    
+            <div class="tm-person-img-container">
+              <img src="{% static 'appcommerce/img/person-2.jpg' %}" alt="Image" class="img-fluid mx-auto"/>
+            </div>              
+            <h3 class="tm-about-name tm-uppercase">Joceline Bautita</h3>
+            <p class="tm-about-description">
+              Recomiendo el lugar ya que tiene un buen servicio y las entregas a domicilio son muy rapidas. 
+            </p>
+          </div>
+
+          <div class="tm-bg-black-transparent tm-testimonial-box text-center">
+            <div class="tm-person-img-container">
+              <img src="{% static 'appcommerce/img/person-1.jpg' %}" alt="Image" class="img-fluid mx-auto"/>
+            </div>              
+            <h3 class="tm-about-name tm-uppercase">Stephany Hernandez</h3>
+            <p class="tm-about-description">
+                Es muy buena la calidad de los productos,ademas que tiene una gran variedad y el servicio que se ofrece es muy bueno.
+            </p>
+          </div>
+          <div class="col-12 tm-carousel">              
+            <div class="tm-bg-black-transparent tm-testimonial-box text-center">                    
+              <div class="tm-person-img-container">
+                <img src="{% static 'appcommerce/img/person-3.jpg' %}" alt="Image" class="img-fluid mx-auto"/>
+              </div>              
+              <h3 class="tm-about-name tm-uppercase">Karina Bartolo</h3>
+              <p class="tm-about-description">
+                Es un lugar con una extensa lista de productos de buena calidad.
+              </p>
+            </div>
+  
+            <div class="tm-bg-black-transparent tm-testimonial-box text-center">
+              <div class="tm-person-img-container">
+                <img src="{% static 'appcommerce/img/person.jpg' %}" alt="Image" class="img-fluid mx-auto"/>
+              </div>              
+              <h3 class="tm-about-name tm-uppercase">Karla Zaragoza</h3>
+              <p class="tm-about-description">
+                 Tiene una excelente atencion y un buen servicio.
+              </p>
+            </div>
+
+            <div class="tm-bg-black-transparent tm-testimonial-box text-center">
+              <div class="tm-person-img-container">
+                <img src="{% static 'appcommerce/img/person-4.jpg' %}" alt="Image" class="img-fluid mx-auto"/>
+              </div>              
+              <h3 class="tm-about-name tm-uppercase">Usiel Colin</h3>
+              <p class="tm-about-description">
+                Existe una gran higiene en el lugar ademas que te atienden muy rapido en los numeros proporcionados.
+              </p>
+            </div>
+
+             
+    
+  </section>
+
+{% endblock %}

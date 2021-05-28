@@ -1,0 +1,67 @@
+{% extends 'appcommerce/index.html' %}
+
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <section class="row" id="tmServices">
+        <div class="col-12">
+          <div class="parallax-window tm-services-parallax-header tm-testimonials-parallax-header"
+               data-parallax="scroll"
+               data-z-index="101"
+               data-image-src="img/people.jpg">
+
+               <div class="tm-bg-black-transparent text-center tm-services-header tm-testimonials-header">
+                  <h2 class="text-uppercase tm-services-page-title tm-testimonials-page-title">Contacto</h2>
+                  <p class="tm-services-description mb-0 small">
+                    Medios de contacto.
+                  </p>
+              </div>
+          </div>
+        </div>   
+      </section>
+
+      <section class="row tm-contact-row">
+          <div class="col-lg-6 tm-contact-col-left">
+              <form action="#" method="POST" id="tmContactForm" class="tm-bg-black-transparent tm-contact-form">
+                <div class="form-group">
+                  <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Nombre" required="">
+                </div>
+                <div class="form-group">
+                  <input type="email" id="contact_email" name="contact_email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                  <textarea rows="6" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Mensaje" required=""></textarea>
+                </div>
+                <div class="text-right">
+                  <button type="submit" class="btn btn-primary tm-btn-submit rounded-0">
+                    ¡Listo!
+                  </button>
+                </div>
+              </form>
+          </div>
+          <div class="col-lg-6 tm-contact-col-right">
+              <div class="tm-bg-black-transparent tm-contact-text">
+                          
+                  <i class="mx-auto mb-5 fas fa-3x fa-address-card tm-app-feature-icon"></i>
+                  
+                  <h3 class="tm-service-tab-title">Redes sociales y números teléfonicos</h3>
+                  <p class="tm-service-tab-p">
+                  Facebook:  Cristal Bautista,
+                    5573861937 ó 5610905953                    
+                  </p>                            
+                  <p class="mb-0">
+                    Instagram: nan1_v ó
+                    cristalh_2003
+                  </p>
+              </div>
+          </div>
+      </section>
+    </body>
+</html>
+{% endblock %}
